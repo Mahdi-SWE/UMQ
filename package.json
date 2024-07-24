@@ -13,5 +13,8 @@
     "@supabase/supabase-js": "^2.44.4",
     "nuxt": "^3.12.4",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1"
   }
 }

@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>done</h1>
-  </div>
+  <h1 class="text-3xl font-bold underline">
+    About
+  </h1>
 </template>
 
 <script setup>
