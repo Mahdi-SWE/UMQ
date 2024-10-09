@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex min-h-screen flex-col bg-[#f8f9fc] overflow-x-hidden"
+  <div class="relative flex min-h-screen flex-col overflow-x-hidden"
     style="font-family: 'Public Sans', 'Noto Sans', sans-serif">
     <div class="layout-container flex h-full grow flex-col">
       <div class="px-40 flex flex-1 justify-center py-5">
