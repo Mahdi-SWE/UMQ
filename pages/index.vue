@@ -2,32 +2,6 @@
   <div class="relative flex min-h-screen flex-col bg-[#f8f9fc] overflow-x-hidden"
     style="font-family: 'Public Sans', 'Noto Sans', sans-serif">
     <div class="layout-container flex h-full grow flex-col">
-      <header
-        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7e9f3] px-10 py-3">
-        <div class="flex items-center gap-4 text-[#0e101b]">
-          <div class="w-8 h-8">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z"
-                fill="currentColor"></path>
-            </svg>
-          </div>
-          <h2 class="text-[#0e101b] text-lg font-bold leading-tight tracking-[-0.015em]">
-            UMQ Cleaning Services
-          </h2>
-        </div>
-        <div class="flex flex-1 justify-end gap-8">
-          <div class="flex items-center gap-9">
-            <nuxt-link class="text-[#0e101b] text-sm font-medium leading-normal" to="/">Home</nuxt-link>
-            <nuxt-link class="text-[#0e101b] text-sm font-medium leading-normal" to="/services">Services</nuxt-link>
-            <nuxt-link class="text-[#0e101b] text-sm font-medium leading-normal" to="/about">About Us</nuxt-link>
-            <nuxt-link class="text-[#0e101b] text-sm font-medium leading-normal" to="/contact">Contact</nuxt-link>
-          </div>
-          <button
-            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#556bec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
-            <span class="truncate">Book Now</span>
-          </button>
-        </div>
-      </header>
       <div class="px-40 flex flex-1 justify-center py-5">
         <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
           <div class="@container">
@@ -54,14 +28,15 @@
                   </h2>
                 </div>
                 <div class="flex-wrap gap-3 flex">
-                  <button
-                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#556bec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
+                  <NuxtLink
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#556bec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]"
+                    to="/booking">
                     <span class="truncate">Book Now</span>
-                  </button>
-                  <button
-                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e7e9f3] text-[#0e101b] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
+                  </NuxtLink>
+                  <NuxtLink
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#e7e9f3] text-[#0e101b] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]" to="/about">
                     <span class="truncate">Learn More</span>
-                  </button>
+                  </NuxtLink>
                 </div>
               </div>
             </div>
