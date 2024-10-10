@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between bg-white shadow-md py-4 px-10">
+  <div class="flex items-center justify-between bg-[#f8f9fc] shadow-md py-4 px-10">
     <!-- Logo Section -->
     <div class="flex items-center gap-4 text-gray-900">
       <!-- Use the logo image from the public folder -->
