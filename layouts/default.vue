@@ -1,15 +1,20 @@
 <!-- layouts/default.vue -->
 <template>
-    <div>
-      <!-- TheHeader will be included on all pages using this layout -->
-      <TheHeader class="shadow-md" />
-  
-      <!-- Page content will be rendered here -->
+  <div class="flex flex-col min-h-screen">
+    <!-- TheHeader Component (Appears on all pages) -->
+    <TheHeader />
+
+    <!-- Main Page Content -->
+    <div class="flex-grow">
       <NuxtPage />
     </div>
-  </template>
-  
-  <script setup>
-  import TheHeader from '~/components/TheHeader.vue';
-  </script>
-  
+
+    <!-- TheFooter Component (Appears on all pages) -->
+    <TheFooter />
+  </div>
+</template>
+
+<script setup>
+import TheHeader from '~/components/TheHeader.vue';
+import TheFooter from '~/components/TheFooter.vue';
+</script>
