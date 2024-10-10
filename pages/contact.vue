@@ -122,41 +122,58 @@
 
             <h3 class="text-[#0e101b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Get In Touch
             </h3>
-            <div class="flex max-w-[960px] flex-wrap gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-[30%] flex-1">
-                    <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your name</p>
-                    <input placeholder="Your Name"
-                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
-                        value="" />
-                </label>
-                <label class="flex flex-col min-w-[30%] flex-1">
-                    <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your email</p>
-                    <input placeholder="example@email.com"
-                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
-                        value="" />
-                </label>
-                <label class="flex flex-col min-w-[30%] flex-1">
-                    <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your phone number</p>
-                    <input placeholder="0500000000"
-                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
-                        value="" />
-                </label>
-            </div>
-            <div class="flex max-w-[960px] flex-wrap gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-full">
-                    <textarea placeholder="Message"
-                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] min-h-36 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"></textarea>
-                </label>
-            </div>
-            <div class="flex px-4 py-3 justify-center">
-                <button
-                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#556bec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
-                    <span class="truncate">Send</span>
-                </button>
-            </div>
+            <form @submit.prevent="handleSubmit">
+                <div class="flex max-w-[960px] flex-wrap gap-4 px-4 py-3">
+                    <label class="flex flex-col min-w-[30%] flex-1">
+                        <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your name</p>
+                        <input placeholder="Your Name"  v-model="form.name"
+                            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"/>
+                    </label>
+                    <label class="flex flex-col min-w-[30%] flex-1">
+                        <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your email</p>
+                        <input placeholder="example@email.com" v-model="form.email"
+                            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"/>
+                    </label>
+                    <label class="flex flex-col min-w-[30%] flex-1">
+                        <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your phone number</p>
+                        <input placeholder="0500000000" v-model="form.phone"
+                            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"/>
+                    </label>
+                </div>
+                <div class="flex max-w-[960px] flex-wrap gap-4 px-4 py-3">
+                    <label class="flex flex-col min-w-full">
+                        <textarea placeholder="Message" v-model="form.message"
+                            class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] min-h-36 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"></textarea>
+                    </label>
+                </div>
+                <div class="flex px-4 py-3 justify-center">
+                    <button
+                        class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#556bec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
+                        <span class="truncate">Send</span>
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </template>
 
 <script setup>
+import { ref } from 'vue';
+
+const form = ref({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+});
+
+const handleSubmit = () => {
+    console.log(form.value); // Log the form data
+    alert('Your message has been sent!'); // Alert message
+    // Optionally, reset the form fields after submission
+    form.value.name = '';
+    form.value.email = '';
+    form.value.phone = '';
+    form.value.message = '';
+};
 </script>
