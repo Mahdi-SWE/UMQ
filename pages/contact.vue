@@ -18,22 +18,10 @@
                 </div>
                 <div class="flex flex-col justify-center">
                     <p class="text-[#0e101b] text-base font-medium leading-normal line-clamp-1">Business Hours</p>
-                    <p class="text-[#4e5997] text-sm font-normal leading-normal line-clamp-2">Mon-Fri: 9am-6pm</p>
+                    <p class="text-[#4e5997] text-sm font-normal leading-normal line-clamp-2">Every day: 9am-9pm</p>
                 </div>
             </div>
-            <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 min-h-14">
-                <div class="text-[#0e101b] flex items-center justify-center rounded-lg bg-[#e7e9f3] shrink-0 size-10"
-                    data-icon="ShieldCheck" data-size="24px" data-weight="regular">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
-                        viewBox="0 0 256 256">
-                        <path
-                            d="M208,40H48A16,16,0,0,0,32,56v58.78c0,89.61,75.82,119.34,91,124.39a15.53,15.53,0,0,0,10,0c15.2-5.05,91-34.78,91-124.39V56A16,16,0,0,0,208,40Zm0,74.79c0,78.42-66.35,104.62-80,109.18-13.53-4.51-80-30.69-80-109.18V56H208ZM82.34,141.66a8,8,0,0,1,11.32-11.32L112,148.68l50.34-50.34a8,8,0,0,1,11.32,11.32l-56,56a8,8,0,0,1-11.32,0Z">
-                        </path>
-                    </svg>
-                </div>
-                <p class="text-[#0e101b] text-base font-normal leading-normal flex-1 truncate">Emergency Service
-                    Available</p>
-            </div>
+
             <h3 class="text-[#0e101b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Contact
                 Information</h3>
             <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 min-h-14">
@@ -46,7 +34,7 @@
                         </path>
                     </svg>
                 </div>
-                <p class="text-[#0e101b] text-base font-normal leading-normal flex-1 truncate">123-456-7890</p>
+                <p class="text-[#0e101b] text-base font-normal leading-normal flex-1 truncate">966 55 882 8342</p>
             </div>
             <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 min-h-14">
                 <div class="text-[#0e101b] flex items-center justify-center rounded-lg bg-[#e7e9f3] shrink-0 size-10"
@@ -58,7 +46,7 @@
                         </path>
                     </svg>
                 </div>
-                <p class="text-[#0e101b] text-base font-normal leading-normal flex-1 truncate">info@umqcleaning.com</p>
+                <p class="text-[#0e101b] text-base font-normal leading-normal flex-1 truncate">Ummq.sa@gmail.com</p>
             </div>
             <h3 class="text-[#0e101b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Address</h3>
             <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 min-h-[72px] py-2">
@@ -72,42 +60,95 @@
                     </svg>
                 </div>
                 <div class="flex flex-col justify-center">
-                    <p class="text-[#0e101b] text-base font-medium leading-normal line-clamp-1">123 Main St, San
-                        Francisco, CA 94111</p>
-                    <p class="text-[#4e5997] text-sm font-normal leading-normal line-clamp-2">123 Main St, San
-                        Francisco, CA 94111</p>
+                    <p class="text-[#0e101b] text-base font-medium leading-normal line-clamp-1">Sumou Tower, Khobar</p>
+                    <p class="text-[#4e5997] text-sm font-normal leading-normal line-clamp-2">
+                        <a href="https://maps.app.goo.gl/KiLSaHXNQHESNK137/">Press to check google map</a>
+                    </p>
                 </div>
             </div>
+            <!-- Social Media Section -->
+            <h3 class="text-[#0e101b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Social Media
+            </h3>
+            <div class="flex flex-wrap gap-4 px-4">
+
+                <!-- Instagram -->
+                <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 py-2 rounded-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                        alt="Instagram Icon" class="w-6 h-6">
+                    <p class="text-[#0e101b] text-base font-normal leading-normal">
+                        <a href="https://www.instagram.com/ummq.sa?igsh=MWd4emF4Mnl2YmprdA==/">@ummq.sa</a>
+                    </p>
+                </div>
+
+                <!-- Snapchat -->
+                <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 py-2 rounded-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg" alt="Snapchat Icon"
+                        class="w-6 h-6">
+                    <p class="text-[#0e101b] text-base font-normal leading-normal">
+                        <a
+                            href="https://www.snapchat.com/add/ummqsa?sender_web_id=f4a05cd9-9231-4341-afdb-b89c144a16c3&device_type=desktop&is_copy_url=true/">@ummqsa</a>
+                    </p>
+                </div>
+
+                <!-- TikTok -->
+                <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 py-2 rounded-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok Icon"
+                        class="w-6 h-6">
+                    <p class="text-[#0e101b] text-base font-normal leading-normal">
+                        <a href="https://www.tiktok.com/@ummq.saa?_t=8kSB4FkN7g2&_r=1/">@ummq.saa</a>
+                    </p>
+                </div>
+
+                <!-- X (formerly Twitter) -->
+                <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 py-2 rounded-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="X Icon"
+                        class="w-6 h-6">
+                    <p class="text-[#0e101b] text-base font-normal leading-normal">
+                        <a href="https://twitter.com/ummq_sa/">@ummq_sa</a>
+                    </p>
+                </div>
+
+                <!-- Facebook -->
+                <div class="flex items-center gap-4 bg-[#f8f9fc] px-4 py-2 rounded-lg">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                        alt="Facebook Icon" class="w-6 h-6">
+                    <p class="text-[#0e101b] text-base font-normal leading-normal">
+                        <a href="https://www.facebook.com/profile.php?id=61554713859126&mibextid=ZbWKwL/">@UmmqSa Sa
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+
             <h3 class="text-[#0e101b] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Get In Touch
             </h3>
-            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
-                    <input placeholder="Name"
+            <div class="flex max-w-[960px] flex-wrap gap-4 px-4 py-3">
+                <label class="flex flex-col min-w-[30%] flex-1">
+                    <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your name</p>
+                    <input placeholder="Your Name"
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
+                        value="" />
+                </label>
+                <label class="flex flex-col min-w-[30%] flex-1">
+                    <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your email</p>
+                    <input placeholder="example@email.com"
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
+                        value="" />
+                </label>
+                <label class="flex flex-col min-w-[30%] flex-1">
+                    <p class="text-[#111218] text-base font-medium leading-normal pb-2">Enter your phone number</p>
+                    <input placeholder="0500000000"
                         class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
                         value="" />
                 </label>
             </div>
-            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
-                    <input placeholder="Email"
-                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
-                        value="" />
-                </label>
-            </div>
-            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
-                    <input placeholder="Phone"
-                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] h-14 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"
-                        value="" />
-                </label>
-            </div>
-            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-                <label class="flex flex-col min-w-40 flex-1">
+            <div class="flex max-w-[960px] flex-wrap gap-4 px-4 py-3">
+                <label class="flex flex-col min-w-full">
                     <textarea placeholder="Message"
                         class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#0e101b] focus:outline-0 focus:ring-0 border border-[#d0d3e7] bg-[#f8f9fc] focus:border-[#d0d3e7] min-h-36 placeholder:text-[#4e5997] p-[15px] text-base font-normal leading-normal"></textarea>
                 </label>
             </div>
-            <div class="flex px-4 py-3 justify-end">
+            <div class="flex px-4 py-3 justify-center">
                 <button
                     class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#556bec] text-[#f8f9fc] text-sm font-bold leading-normal tracking-[0.015em]">
                     <span class="truncate">Send</span>
